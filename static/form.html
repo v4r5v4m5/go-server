@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <style>
+        input:focus,
+        select:focus,
+        textarea:focus,
+        button:focus {
+            outline: none;
+        }
+        input[type=text], select {
+        width: 69%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: center;
+        color: green;
+        background-color: black;
+        font-size: larger;
+        }
+
+        input[type=email], select {
+        width: 69%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: center;
+        color: green;
+        background-color: black;
+        font-size: larger;
+        }
+
+        input[type=password], select {
+        width: 69%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 0px solid black;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: center;
+        color: green;
+        background-color: black;
+        font-size: larger;
+        }
+
+        input[type=submit] {
+            width: 69%;
+            background-color: green;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: larger;
+          }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <center>
+        <div style="padding: 261px;">
+            <form method="POST" action="/form">
+                <input type="text" name="username" placeholder="> hey hacker! enter your username" value="" required autocomplete="off" /><br /><br />
+                <input type="email" name="email" placeholder="> hey hacker! enter your email" value="" required autocomplete="off" /><br/><br />
+                <input type="password" name="password" placeholder="> hey hacker! enter your password" value="" required autocomplete="off" /><br/><br />
+
+                <input type="submit" value="let's hack" />
+            </form>
+        </div>
+    </center>
+    </body>
+</html>
